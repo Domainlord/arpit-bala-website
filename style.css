@@ -5,18 +5,20 @@
 
 /* ── CSS Variables ── */
 
-  gold: #e8a027;
-  gold-light: #f5c76a;
-  gold-dim: #7a4e0d;
-  bg: #080706;
-  bg2: #0f0d0b;
-  bg3: #161210;
-  surface: #1c1814;
-  surface2: #252118;
-  text: #f0e8dc;
-  text-dim: #8a7e70;
-  accent: #c94c1e;
-  accent2: #e85f2a;
+  :root {
+  --gold: #e8a027;
+  --gold-light: #f5c76a;
+  --gold-dim: #7a4e0d;
+  --bg: #080706;
+  --bg2: #0f0d0b;
+  --bg3: #161210;
+  --surface: #1c1814;
+  --surface2: #252118;
+  --text: #f0e8dc;
+  --text-dim: #8a7e70;
+  --accent: #c94c1e;
+  --accent2: #e85f2a;
+}
 
 
 /* ── Reset ── */
