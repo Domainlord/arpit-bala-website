@@ -81,7 +81,12 @@ nav.scrolled {
   font-size: 26px; letter-spacing: 3px;
   color: var(--gold); text-decoration: none; cursor: pointer;
 }
-.nav-links { display: flex; gap: 36px; list-style: none; }
+.nav-links {display: flex;
+  align-items: center;   /* FIX vertical alignment */
+  gap: 32px;             /* slightly cleaner spacing */
+  list-style: none;
+  margin: 0;             /* REMOVE default spacing */
+  padding: 0; }
 .nav-links a {
   font-family: 'Syne', sans-serif;
   font-size: 12px; font-weight: 600; letter-spacing: 2.5px;
