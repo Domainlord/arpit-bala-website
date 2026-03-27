@@ -117,7 +117,7 @@ const GALLERY = [
 /*const $c = document.getElementById('cursor');
 const $r = document.getElementById('cursorRing');
 let rx = 0, ry = 0, cx = 0, cy = 0;
-}
+
 document.addEventListener('mousemove', e => 
   cx = e.clientX; cy = e.clientY;
   $c.style.left = cx + 'px';
