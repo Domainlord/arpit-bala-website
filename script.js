@@ -115,7 +115,7 @@ const GALLERY = [
 // ══════════════════════════════════════════════
 
 const $c = document.getElementById('cursor');
-const $c = document.getElementById('cursorRing');
+const $r = document.getElementById('cursorRing');
 let rx = 0, ry = 0, cx = 0, cy = 0;
 }
 document.addEventListener('mousemove', e => 
