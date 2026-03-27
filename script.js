@@ -99,8 +99,8 @@ const VIDEOS = [
 ];
 
 const GALLERY = [
-  {<img src="./images/arpit1.jpg"> },
-  { <img src="./images/arpit2.jpg"> },
+  { src: "https://picsum.photos/seed/concert1/800/900", label: "Live Show"},
+  { src: "https://picsum.photos/seed/studio2/600/400",  label: "Studio"   },
   { src: "https://picsum.photos/seed/stage3/600/400",   label: "On Stage" },
   { src: "https://picsum.photos/seed/streets4/800/400", label: "Streets"  },
   { src: "https://picsum.photos/seed/vibes5/400/400",   label: "Vibes"    },
