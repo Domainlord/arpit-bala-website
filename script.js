@@ -114,7 +114,7 @@ const GALLERY = [
 // CURSOR
 // ══════════════════════════════════════════════
 
-const $c = document.getElementById('cursor');
+/*const $c = document.getElementById('cursor');
 const $r = document.getElementById('cursorRing');
 let rx = 0, ry = 0, cx = 0, cy = 0;
 }
@@ -130,7 +130,7 @@ setInterval(() => {
   $r.style.top  = ry + 'px';
 }, 16);
 document.addEventListener('mousedown', () => $c.style.transform = 'translate(-50%,-50%) scale(1.8)');
-document.addEventListener('mouseup',   () => $c.style.transform = 'translate(-50%,-50%) scale(1)');
+document.addEventListener('mouseup',   () => $c.style.transform = 'translate(-50%,-50%) scale(1)');*/
 
 // ══════════════════════════════════════════════
 // NAV SCROLL EFFECT
