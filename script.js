@@ -114,15 +114,15 @@ const GALLERY = [
 // CURSOR
 // ══════════════════════════════════════════════
 
-const $c = document.getElementById('cursor');
-const $r = document.getElementById('cursorRing');
+const = document.getElementById('cursor');
+const= document.getElementById('cursorRing');
 let rx = 0, ry = 0, cx = 0, cy = 0;
 
-document.addEventListener('mousemove', e => {
+document.addEventListener('mousemove', e => 
   cx = e.clientX; cy = e.clientY;
   $c.style.left = cx + 'px';
   $c.style.top  = cy + 'px';
-});
+
 setInterval(() => {
   rx += (cx - rx) * .14;
   ry += (cy - ry) * .14;
