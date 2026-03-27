@@ -87,7 +87,7 @@ nav.scrolled {
   list-style: none;
   margin: 0;             /* REMOVE default spacing */
   padding: 0; }
-.nav-links a {
+.nav-links a { line-height: 1;   /* prevents vertical shift */
   font-family: 'Syne', sans-serif;
   font-size: 12px; font-weight: 600; letter-spacing: 2.5px;
   text-transform: uppercase; color: var(text-dim);
