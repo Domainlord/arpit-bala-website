@@ -100,7 +100,7 @@ const VIDEOS = [
 
 const GALLERY = [
   { src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn4uOl-fbznhQt3NLJwFRjiYPDnFdf0TAhIg&s", label: "Live Show" },
-  { src: "https://picsum.photos/seed/studio2/600/400",  label: "Studio"   },
+  { src: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4eb-XNXx-ZkEQ4YhjgqasIC5P1_NKvIzh0Q&s,  label: "Studio"   },
   { src: "https://picsum.photos/seed/stage3/600/400",   label: "On Stage" },
   { src: "https://picsum.photos/seed/streets4/800/400", label: "Streets"  },
   { src: "https://picsum.photos/seed/vibes5/400/400",   label: "Vibes"    },
