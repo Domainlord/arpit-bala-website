@@ -105,7 +105,7 @@ nav.scrolled {
   background:
     radial-gradient(ellipse 80% 60% at 70% 50%, rgba(200,76,30,.18), transparent 65%),
     radial-gradient(ellipse 50% 80% at 20% 80%, rgba(232,160,39,.12), transparent 60%),
-    radial-gradient(ellipse 100% 100% at 50% 0%, rgba(8,7,6,0) 30%, var(bg) 100%);
+    radial-gradient(ellipse 100% 100% at 50% 0%, rgba(8,7,6,0) 30%, var(--bg) 100%);
   z-index: 0;
 }
 .hero-noise {
